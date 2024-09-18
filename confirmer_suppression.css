@@ -1,0 +1,68 @@
+/* Styles communs pour toutes les pages */
+
+/* Mise en forme du corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c44343;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mise en forme des entêtes */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Mise en forme des formulaires */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Mise en forme des labels et des champs */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"], button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #27a1c3;
+}
+
+/* Mise en forme des liens */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 350px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

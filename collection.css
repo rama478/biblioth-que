@@ -1,0 +1,129 @@
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('OIP1.jpeg') no-repeat center center fixed;
+    background-size: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    text-align: center;
+}
+
+.search-container form {
+    display: inline-block;
+}
+
+.search-container label {
+    margin-right: 10px;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.search-container input[type="submit"] {
+    padding: 5px 10px;
+}
+
+.table-container {
+    background: rgba(69, 167, 194, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+     /* Désactiver le défilement horizontal */
+}
+
+.table-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    max-width: 100%; /* Limite la largeur à 100% */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed; /* La largeur des colonnes est fixe et calculée pour s'ajuster */
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+p {
+    font-size: 18px;
+    color: #ff0000;
+}
+
+input {
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(69, 167, 194, 0.9);
+}
+
+.boutonconainer{
+    display: flex;
+    justify-content: center;
+}
+.buttonback{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(69, 167, 194, 0.9);
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+.buttonback:hover {
+    background-color: white;
+    color: rgba(69, 167, 194, 0.9);
+}
